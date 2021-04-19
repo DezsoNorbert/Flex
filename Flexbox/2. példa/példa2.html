@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. példa</title>
+</head>
+
+<style>
+.column-layout{
+    max-width: 1300px;
+    background-color: papayawhip;
+    line-height: 1.65; 
+    padding:20px 50px;
+    display: flex;
+}
+
+.main-column{
+    flex: 1;
+    order: 2;
+}
+
+.side-bar one{
+    flex: 1;
+    order:1;
+}
+
+.side-bar two{
+    flex: 1;
+    order:3;
+}
+</style>
+
+<body>
+    <div class="column-layout">
+        <div class="main-column">
+            <h2>Fő oszlop</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo diam eget nisl aliquam
+                vulputate
+                quis eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut
+                suscipit tellus quis rhoncus lobortis. Proin at congue nibh. Morbi turpis nunc, faucibus ut tincidunt
+                sit
+                amet, vestibulum vitae tortor. Aenean posuere, felis finibus ullamcorper dictum, eros tortor euismod
+                felis,
+                ac rhoncus eros quam non mauris. Cras accumsan eleifend dui, a volutpat metus pretium in.
+            </p>
+
+            <p>
+                Sed viverra mollis tellus, eget interdum nulla. Ut pharetra elementum mi, non egestas purus lacinia
+                tempus.
+                Praesent eget augue egestas, porta nulla maximus, pellentesque massa. Phasellus suscipit ultrices
+                consequat.
+                Nam imperdiet eros gravida tellus rutrum molestie. Praesent vel tristique metus. Etiam nunc sapien,
+                euismod
+                vitae massa quis, commodo lacinia metus. Integer pulvinar sagittis pretium. Nullam justo est, aliquam
+                vitae
+                massa non, gravida posuere augue. In hac habitasse platea dictumst. Donec placerat fringilla mi, non
+                tempor
+                libero elementum in. Nam iaculis neque vitae dui imperdiet aliquam.
+            </p>
+        </div>
+
+        <div class="sidebar-one">
+            <h3>Mellékoszlop egy</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat blandit vestibulum. Donec
+                urna
+                neque, pulvinar non augue ut, convallis euismod nisi. Orci varius natoque penatibus et magnis dis
+                parturient
+                montes, nascetur ridiculus mus. Curabitur laoreet risus quis ornare tempus. 
+            </p>
+        </div>
+
+        <div class="sidebar-two">
+            <h3>Mellékoszlop kettő</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lectus ac mauris lobortis semper.
+                Nullam tincidunt et risus nec venenatis. Etiam venenatis aliquam augue et gravida. Phasellus suscipit
+                congue quam, sit amet tristique purus sodales at. Morbi scelerisque nec nisl quis sollicitudin. Nullam
+                vestibulum sit amet turpis et tincidunt. Integer tincidunt risus tellus, non dignissim nisi placerat
+                vitae. .</p>
+        </div>
+    </div>
+</body>
+
+</html>

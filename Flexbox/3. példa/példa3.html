@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. példa</title>
+</head>
+
+<style>
+body{
+    background-color: silver;
+}
+
+.call-out-container{
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-out{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+}
+
+.call-out:nth-child(1){
+    background-color: salmon;
+}
+
+.call-out:nth-child(2){
+    background-color: sandybrown;
+}
+
+.call-out:nth-child(3){
+    background-color: seagreen;
+}
+</style>
+
+<body>
+    <div class="call-out-container">
+        <div class="call-out">
+            <h4>Funkció 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper enim ac porttitor consectetur.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent
+                fermentum nisi iaculis cursus iaculis. Suspendisse lorem purus, ultrices nec arcu vel, tempor efficitur
+                erat. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+
+        <div class="call-out">
+            <h4>Funkció 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales egestas dolor in vulputate. Nunc
+                consectetur interdum tristique. Nulla fringilla diam ipsum, eget facilisis turpis gravida ac. Quisque
+                ornare ut erat id elementum.</p>
+        </div>
+
+        <div class="call-out">
+            <h4>Funkció 3</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum efficitur mi. Phasellus vel pretium
+                tortor. Mauris tincidunt maximus nisi, et gravida diam fermentum vel. Nam ut ex leo. Curabitur at rutrum
+                eros. </p>
+        </div>
+    </div>
+</body>
+
+</html>
